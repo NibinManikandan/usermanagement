@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <div class="jumbotron text-center">
+        <h2>!!! Welcome {{ name }} !!!</h2>
+        <h3>Thank You For Using My Website</h3>
+        <a href="{% url 'logout' %}">
+            <input class="btn btn-primary" type="submit" value="Logout">
+        </a>
+    </div>
+</div>
+</body>
+</html>
